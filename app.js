@@ -26,8 +26,6 @@ const { appliedMail } = require('./gmail/applied');
 
 
 
-
-
 app.engine('ejs', ejsMate);
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -149,6 +147,7 @@ app.post('/deleteAP/:id',catchAsync( async (req, res) => {
     req.flash('success','request deleted');
     res.redirect('/institute_view');
 }))
+
 app.get('/institute_view/approved/:id',catchAsync( async (req, res) => {
     const id = req.params.id;
     const reqs = await Request.findById(id).populate('student');
@@ -359,8 +358,6 @@ app.post('/institute_login', (req, res) => {
         res.redirect('/institute_login');
     }
 })
-
-
 
 const port=process.env.PORT|| 3000;
 app.listen(port,()=>{

@@ -1,27 +1,31 @@
-# <strong>VJTI-RAILWAY-CONCESSION<strong>
+# <p align="center"> <strong>VJTI-RAILWAY-CONCESSION<strong>
 
-## <strong> > Installation
+## <strong> **⏬ Installation**
 ---
 
-[Github Repo Link](https://github.com/aniketpanchal52648/RailGhateMe)
+Hey Buddy, Welcome to the 
+[Railway Concession App](https://github.com/aniketpanchal52648/VJTI-Railway-Concession)
 
-To run this app on your local machine, Fork the [repo](https://github.com/aniketpanchal52648/RailGhateMe)
 
-Clone this repository into your folder of choice
----
-``git clone https://github.com/brupadhyay/VJTI-Railway-Concession.git ``
+To run this app on your local machine, 
 
-Install Node Packages
----
-``npm install ``
+1. First things first, Fork the [Repository](https://github.com/aniketpanchal52648/VJTI-Railway-Concession)
 
-Run the App from root directory
----
+2. Clone this repository into your folder of choice
+
+`git clone https://github.com/aniketpanchal52648/VJTI-Railway-Concession.git`
+
+3. Install Node Packages
+
+`npm install`
+
+4. Run the App from your ROOT Directory
+
 `node app.js`
 
 ----
 
-## <strong>> Web App Details
+## <strong> **🚆Web App Details**
 
 Login Page
 
@@ -58,7 +62,7 @@ Concession Details Page (Student)
 --- 
 
 
-## <strong> > View Button Pages 
+## <strong> **📃 View Pages of Admin**
 
 ![img](appImage/viewBasic.png)
 
@@ -68,7 +72,7 @@ Concession Details Page (Student)
 
 ---
 
-## <strong> > Gmail Notifications Using NodeMailer:
+## <strong> **📧 Gmail Notifications Using NodeMailer**
 
 
 ![gmail](appImage/reqSuc.png)
@@ -83,7 +87,7 @@ Concession Details Page (Student)
 
 
 ---
-## <strong> > Built with :
+## <strong> **⚙ Built with**
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
@@ -103,7 +107,7 @@ Concession Details Page (Student)
 
 ---
 
-**We really enjoyed the Centenary Hackhathon 2023 organised by GDSC and COC, hope to see more events in the future, and eager to participate in it.**
+**We really enjoyed the Centenary Hackathon 2023 organised by GDSC and COC, hope to see more events in the future, and eager to participate in it.**
 
 
 
